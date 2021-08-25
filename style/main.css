@@ -514,6 +514,14 @@ body{
   }
   
   /*REEEEEEEEEEESPONSIVE*/
+  @media(max-width: 1200px) {
+    p:nth-child(1) a{
+      -webkit-animation: none;
+      -moz-animation: none;
+      animation: none; 
+
+    }
+  } 
   @media (max-width: 650px) {
     .profileImg{
         width: 180px;
@@ -532,14 +540,6 @@ body{
       width: 100%;
       height: auto;
     }
-    
-    p:nth-child(1) a{
-      -webkit-animation: none;
-      -moz-animation: none;
-      animation: none; 
-
-    }
-
     p{
       font-size: 15vw;
     }
