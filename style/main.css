@@ -28,6 +28,9 @@
     display: flex;
     justify-content: center;
 }
+
+
+
 body{
     background: linear-gradient(180deg, rgba(113,113,113,1) 18%, rgba(114,143,255,1) 100%);
 }
@@ -506,7 +509,6 @@ body{
     }
   }
   
-  
   /*REEEEEEEEEEESPONSIVE*/
   @media (max-width: 650px) {
     .profileImg{
@@ -521,5 +523,17 @@ body{
     {
         width: 90%;
     }
-  
+
+    .responsive {
+      width: 100%;
+      height: auto;
+    }
+    
+    p:nth-child(1) a{
+      -webkit-animation: none;
+      -moz-animation: none;
+      animation: none; 
+
+    }
+
   }
