@@ -139,7 +139,7 @@ body{
       transform: translateY(0px);
     }
     to {
-      transform: translateY(-100vh);
+      transform: translateY(-2000px);
     }
   }
   
