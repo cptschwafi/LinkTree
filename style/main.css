@@ -29,6 +29,10 @@
     justify-content: center;
 }
 
+.responsive{
+  max-width: 300px;
+}
+
 
 
 body{
@@ -534,6 +538,10 @@ body{
       -moz-animation: none;
       animation: none; 
 
+    }
+
+    p{
+      font-size: 15vw;
     }
 
   }
